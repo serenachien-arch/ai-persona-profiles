@@ -2,7 +2,7 @@
 
 [← 回總覽](../README.md)
 
-> 目前進度：**第一批，每人 5 題，共 75 題**（目標每人 25 題，共 375 題）。
+> 目前進度：Jasmine 25 題已完成；其他人設各 5 題（目標每人 25 題，共 375 題）。
 > 暫定，未經實測。請先看這批的方向對不對，再寫剩下的 300 題。
 
 ## 題庫是什麼
@@ -35,7 +35,7 @@
 
 | # | 人設 | 題數 |
 |---|---|---|
-| 1 | [Jasmine Lin](01-jasmine-lin.md) | 5 / 25 |
+| 1 | [Jasmine Lin](01-jasmine-lin.md) | 25 / 25 |
 | 2 | [Megan Carter](02-megan-carter.md) | 5 / 25 |
 | 3 | [Daniel Brooks](03-daniel-brooks.md) | 5 / 25 |
 | 4 | [Jordan Reeves](04-jordan-reeves.md) | 5 / 25 |

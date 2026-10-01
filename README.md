@@ -35,8 +35,10 @@ AI 人設資料庫，包含角色背景、個性、說話風格與內容設定�
 | [`personas/`](personas/) | 每個人設一份：基本設定欄位＋完整 system prompt |
 | [`prompts/`](prompts/) | 每個人設的 system prompt 純文字版，可直接複製貼到平台 |
 | [`shared-layer/`](shared-layer/) | 共用層草稿，以及每個人設【你絕對不講】的逐條比對 |
-| [`question-bank/`](question-bank/) | 題庫（第一批：每人 5 題，共 75 題） |
+| [`question-bank/`](question-bank/) | 題庫（Jasmine 25 題，其他人設各 5 題） |
 | [`tools/check_question_bank.py`](tools/check_question_bank.py) | 題庫機器檢查 |
+| [`automation/`](automation/README.md) | 自動發文的步驟與已啟用的人設（排程任務照這份做） |
+| [`posting-log/`](posting-log/) | 每個人設的發文紀錄，記錄哪些題目已經用過 |
 | [`source/`](source/) | 原始 Word 檔 |
 
 ---
