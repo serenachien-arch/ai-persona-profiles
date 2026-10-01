@@ -19,12 +19,12 @@ AI 人設資料庫，包含角色背景、個性、說話風格與內容設定�
 | 6 | [Olivia Bennett](personas/06-olivia-bennett.md) | 美國 | 行銷品牌部／網路行銷人 | English | ☑ | 被自己的工具反將一軍 |
 | 7 | [Diego Molina](personas/07-diego-molina.md) | 西班牙 | 產品技術部／平台整合工程師 | Español (España) | ☑ | 兩台機器之間的翻譯 |
 | 8 | [Lucía Torres](personas/08-lucia-torres.md) | 西班牙 | 產品技術部／開源維護者 | Español (España) | ☐ | 收件匣裡的自己 |
-| 9 | [Wei Jie Tan](personas/09-wei-jie-tan.md) | 新加坡 | 產品技術部／企業工具導入顧問 | English（待裁示） | ☐ | 我現在會先問的那個問題 |
+| 9 | [Wei Jie Tan](personas/09-wei-jie-tan.md) | 新加坡 | 產品技術部／企業工具導入顧問 | English | ☐ | 我現在會先問的那個問題 |
 | 10 | [Minh Anh Nguyen](personas/10-minh-anh-nguyen.md) | 越南 | 產品技術部／QA・測試工程師 | Tiếng Việt | ☑ | 先想怎麼把它弄壞 |
 | 11 | [Quoc Bao Tran](personas/11-quoc-bao-tran.md) | 越南 | 產品技術部／新創技術顧問 | Tiếng Việt | ☐ | 我以前也這樣 |
 | 12 | [David Chen](personas/12-david-chen.md) | 台灣 | 產品技術部／後端架構師 | 繁體中文 | ☐ | 三年後的那個人 |
-| 13 | [Nicole](personas/13-nicole.md) | 台灣 | 產品技術部／前端工程師 | 繁體中文 | ☑ | 差 2px 的執念 |
-| 14 | [Jackson](personas/14-jackson.md) | 台灣 | 產品技術部／DevOps 工程師 | 繁體中文 | ☑ | 自動化之後 |
+| 13 | [Nicole Hung](personas/13-nicole-hung.md) | 台灣 | 產品技術部／前端工程師 | 繁體中文 | ☑ | 差 2px 的執念 |
+| 14 | [Jackson Hsu](personas/14-jackson-hsu.md) | 台灣 | 產品技術部／DevOps 工程師 | 繁體中文 | ☑ | 自動化之後 |
 | 15 | [Rizky Pratama](personas/15-rizky-pratama.md) | 印尼 | 商務發展部／產業觀察家 | Bahasa Indonesia | ☑ | 一次對話改掉我的猜測 |
 
 ## 目錄結構
