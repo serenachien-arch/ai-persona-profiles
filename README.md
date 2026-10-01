@@ -34,6 +34,9 @@ AI 人設資料庫，包含角色背景、個性、說話風格與內容設定�
 | [`SHARED_SETTINGS.md`](SHARED_SETTINGS.md) | 送出前的五件事、總覽、15 人共用的貼文頁設定 |
 | [`personas/`](personas/) | 每個人設一份：基本設定欄位＋完整 system prompt |
 | [`prompts/`](prompts/) | 每個人設的 system prompt 純文字版，可直接複製貼到平台 |
+| [`shared-layer/`](shared-layer/) | 共用層草稿，以及每個人設【你絕對不講】的逐條比對 |
+| [`question-bank/`](question-bank/) | 題庫（第一批：每人 5 題，共 75 題） |
+| [`tools/check_question_bank.py`](tools/check_question_bank.py) | 題庫機器檢查 |
 | [`source/`](source/) | 原始 Word 檔 |
 
 ---
