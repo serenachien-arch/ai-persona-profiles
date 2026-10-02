@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Metricool__getBrandSettings",
+      "mcp__Metricool__getScheduledPosts",
+      "mcp__Metricool__createScheduledPost",
+      "Bash(git pull origin claude/cool-curie-3tbq0c)",
+      "Bash(git pull -q origin claude/cool-curie-3tbq0c)",
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git add posting-log/*)",
+      "Bash(git commit *)",
+      "Bash(git push origin claude/cool-curie-3tbq0c)",
+      "Bash(git push -q origin claude/cool-curie-3tbq0c)",
+      "Bash(python3 tools/check_question_bank.py)",
+      "Bash(python3 tools/count_post.py *)",
+      "Edit(posting-log/**)"
+    ]
+  }
+}

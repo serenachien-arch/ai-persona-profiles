@@ -28,7 +28,7 @@
    - 全部用完 → 這個人設不要發文，在執行結果寫明「題庫用完」。
 3. **寫貼文**：讀 `prompts/<人設>.txt`，把它當成 system prompt，用挑到的題目寫一則貼文。同一天的兩則不要寫成同一種開頭或結構。
 4. **檢查**，全部通過才能排程，沒過就重寫：
-   - 字數：中文人設 150〜200 字（不含空白和換行）；英文人設 450 字元以內；西班牙文／越南文／印尼文 400 字元以內（外語都含空格與標點）
+   - 字數：先把貼文存成 `posting-log/drafts/<日期>-<時段>.txt`（這個資料夾不進 git），再跑 `python3 tools/count_post.py <檔案>`。中文人設 150〜200 字（不含空白和換行）；英文人設 450 字元以內；西班牙文／越南文／印尼文 400 字元以內（外語都含空格與標點）
    - 沒有違反 prompt 的【你絕對不講】
    - 沒有真實的工具名稱、公司名稱、價格、沒出處的數字
    - 沒有 hashtag，沒有「留言告訴我」這類呼籲
@@ -43,8 +43,13 @@
 
 全部做完後：
 
+> 自動執行時不需要人按同意：Metricool 查詢與排程、上面這些 git 指令、`tools/` 裡的兩個檢查腳本、編輯 `posting-log/`，都已在 `.claude/settings.json` 預先允許。修改或刪除 Metricool 裡已存在的貼文**沒有**預先允許，一定會先問。
+
 7. 跑 `python3 tools/check_question_bank.py`，確認題庫檢查通過。
-8. commit 並 push 到 `claude/cool-curie-3tbq0c` 分支。
+8. 照這三個指令 commit 並 push（這些指令已在 `.claude/settings.json` 預先允許，不會跳出確認）：
+   - `git add posting-log/*`
+   - `git commit -m "<訊息>"`
+   - `git push -q origin claude/cool-curie-3tbq0c`
 9. 回報：每則排了什麼時間、用哪一題、第一句是什麼；每個人設還剩幾題沒用。剩不到 6 題（約 3 天份）時，提醒要補題庫。
 
 ## 出錯時
