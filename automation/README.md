@@ -33,7 +33,7 @@
    - 沒有真實的工具名稱、公司名稱、價格、沒出處的數字
    - 沒有 hashtag，沒有「留言告訴我」這類呼籲
    - emoji 數量符合人設設定
-   - 第一句就是具體的瞬間，結尾沒有外掛教學結論
+   - 結構照該人設 prompt 的【怎麼寫】（Jasmine：讓人停下來的第一句 → 自己的小故事 → 「我後來才發現」的一個小發現，不用老師口吻）
 5. **排程**：用 `createScheduledPost` 排進 Metricool。
    - `providers`: `[{"network":"threads"}]`
    - `draft`: false，`autoPublish`: true

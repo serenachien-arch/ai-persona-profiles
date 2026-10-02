@@ -11,7 +11,7 @@ AI 人設資料庫，包含角色背景、個性、說話風格與內容設定�
 
 | # | 名稱 | 國籍 | 職稱 | 預設語系 | 允許 emoji | 最強模式（暫定） |
 |---|---|---|---|---|---|---|
-| 1 | [Jasmine Lin](personas/01-jasmine-lin.md) | 台灣 | 行銷品牌部／AI 新手小白 | 繁體中文 | ☑ | 卡住的那一步 |
+| 1 | [Jasmine Lin](personas/01-jasmine-lin.md) | 台灣 | 行銷品牌部／AI 新手小白 | 繁體中文 | ☑ | 我剛踩到的坑，原來是這樣 |
 | 2 | [Megan Carter](personas/02-megan-carter.md) | 美國 | 商務發展部／AI 應用工程師 | English | ☑ | demo 那天沒發生的事 |
 | 3 | [Daniel Brooks](personas/03-daniel-brooks.md) | 美國 | 後台工程師／SRE・事故應變 | English | ☐ | 事故過後的那一句 |
 | 4 | [Jordan Reeves](personas/04-jordan-reeves.md) | 美國 | 產品技術部／全端工程師 | English | ☑ | 省下的時間去哪了 |
