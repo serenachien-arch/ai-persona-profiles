@@ -18,11 +18,14 @@
 
 ## 每次執行的步驟
 
-排程任務每天晚上執行一次，替**隔天**排好所有時段的貼文。晚上先排好，萬一出錯，發佈前還有時間處理；也可以在 Metricool 行事曆先看到隔天的內容。
+每次執行（晚上 20:47、早上 08:47）都**檢查從今天起 3 天內的所有時段**，把還沒排的補上。Metricool 裡隨時會有約 3 天份的貼文，某一次執行中斷，後面兩天還是會照常發。
+
+- 發文時間已經過了，或離現在不到 15 分鐘的時段：跳過，不補發（除非使用者要求）。
+- 自動執行時不要停下來問使用者，也不要做到一半就結束，一定要把該排的排完。
 
 對上表每一個人設、每一個時段，依序做：
 
-1. **先查重複**：用 `getScheduledPosts` 查這個品牌目標日期的排程，並看 `posting-log` 有沒有這個日期、這個時段的紀錄。任一邊已經有 → 跳過，不要重複排。
+1. **先查重複**：用 `getScheduledPosts` 查這個品牌今天起 3 天內的排程，並看 `posting-log` 有沒有這個日期、這個時段的紀錄。任一邊已經有 → 跳過，不要重複排。
 2. **挑題目**：讀 `question-bank/<人設>.md` 和 `posting-log/<人設>.md`。
    - 從還沒用過的題目裡，挑編號最小、而且「建議反應」跟上一則**不一樣**的那題。
    - 全部用完 → 這個人設不要發文，在執行結果寫明「題庫用完」。
@@ -34,10 +37,10 @@
    - 沒有 hashtag，沒有「留言告訴我」這類呼籲
    - emoji 數量符合人設設定
    - 結構照該人設 prompt 的【怎麼寫】（Jasmine：讓人停下來的第一句 → 自己的小故事 → 「我後來才發現」的一個小發現，不用老師口吻）
-5. **排程**：用 `createScheduledPost` 排進 Metricool。
+5. **排程**：用 `createScheduledPost` 排進 Metricool（排在該時段的日期與時間）。
    - `providers`: `[{"network":"threads"}]`
    - `draft`: false，`autoPublish`: true
-   - `publicationDate`: 隔天的發文時間，時區用上表
+   - `publicationDate`: 該時段的發文時間，時區用上表
    - `threadsData`: `{"replyControl":"EVERYONE","type":"POST","shareAsInstagramStory":false}`
 6. **記錄**：在 `posting-log/<人設>.md` 加一列（發佈時間、題號、建議反應、uuid、第一句）。
 
