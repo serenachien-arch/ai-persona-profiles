@@ -10,12 +10,16 @@
       "Bash(git log *)",
       "Bash(git diff *)",
       "Bash(git add posting-log/*)",
+      "Bash(git add question-bank/*)",
       "Bash(git commit *)",
       "Bash(git push origin claude/cool-curie-3tbq0c)",
       "Bash(git push -q origin claude/cool-curie-3tbq0c)",
       "Bash(python3 tools/check_question_bank.py)",
       "Bash(python3 tools/count_post.py *)",
-      "Edit(posting-log/**)"
+      "Bash(TZ=Asia/Taipei date*)",
+      "Edit(posting-log/**)",
+      "Write(posting-log/**)",
+      "Edit(question-bank/**)"
     ]
   }
 }
