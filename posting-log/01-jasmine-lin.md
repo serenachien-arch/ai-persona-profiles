@@ -69,5 +69,5 @@
 > 10/16 11:00 因排程任務中斷漏排。
 
 > 10/27 11:00、10/27 17:00、10/28 11:00（Q01-047〜049）因 Metricool 的 Threads 連線驗證失敗（authentication failure）沒有發出。
-> 10/28 14:30 補發 Q01-050 也因 authentication failure 失敗，需在 Metricool 重新連結 Threads。
+> 10/28 14:30、16:20 補發 Q01-050 都因 authentication failure 失敗：Metricool 品牌「Jasmine Lin林禹茉」目前只連著 Instagram，Threads 未連結，需重新連結。
 > 10/28 起改成一天一篇（11:00）。
