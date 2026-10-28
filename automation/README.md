@@ -13,7 +13,7 @@
 
 | 人設 | Metricool 品牌 | blogId | Threads | 時區 | 每日發文時間 |
 |---|---|---|---|---|---|
-| [Jasmine Lin](../personas/01-jasmine-lin.md) | Jasmine Lin林禹茉 | 7182856 | jasmine.lin0222 | Asia/Taipei | 11:00、17:00 |
+| [Jasmine Lin](../personas/01-jasmine-lin.md) | Jasmine Lin林禹茉 | 7182856 | jasmine.lin0222 | Asia/Taipei | 11:00 |
 
 新增人設時，在這張表加一列，並建立 `posting-log/<編號>-<名字>.md`。
 
@@ -31,7 +31,7 @@
 2. **挑題目**：讀 `question-bank/<人設>.md` 和 `posting-log/<人設>.md`。
    - 從還沒用過的題目裡，挑編號最小、而且「建議反應」跟上一則**不一樣**的那題。
    - 沒用過的題目不到 14 題（約 7 天份）→ 先做下面的「自動補題」，再繼續。
-3. **寫貼文**：讀 `prompts/<人設>.txt`，把它當成 system prompt，用挑到的題目寫一則貼文。同一天的兩則不要寫成同一種開頭或結構。
+3. **寫貼文**：讀 `prompts/<人設>.txt`，把它當成 system prompt，用挑到的題目寫一則貼文。相鄰兩天的貼文不要寫成同一種開頭或結構。
 4. **檢查**，全部通過才能排程，沒過就重寫：
    - 字數：先把貼文存成 `posting-log/drafts/<日期>-<時段>.txt`（這個資料夾不進 git），再跑 `python3 tools/count_post.py <檔案>`。中文人設 150〜200 字（不含空白和換行）；英文人設 450 字元以內；西班牙文／越南文／印尼文 400 字元以內（外語都含空格與標點）
    - 沒有違反 prompt 的【你絕對不講】
